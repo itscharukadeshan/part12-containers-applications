@@ -1,7 +1,6 @@
 # @format
 
 version: "3.8"
-
 services:
   mongo:
     image: mongo
@@ -11,5 +10,5 @@ services:
       MONGO_INITDB_ROOT_USERNAME: root
       MONGO_INITDB_ROOT_PASSWORD: example
       MONGO_INITDB_DATABASE: the_database
-volumes:
-  - ./mongo/mongo-init.js:/docker-entrypoint-initdb.d/mongo-init.js
+    volumes:
+      - /absolute/host/path/mongo-init.js:/docker-entrypoint-initdb.d/mongo-init.js
