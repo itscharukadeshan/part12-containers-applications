@@ -1,0 +1,44 @@
+Commands 
+
+    1.docker container ls -a
+    2.docker start - heuristic_robinson
+    3.nano/usr/src/app/index.js
+    4.exit
+
+
+
+Script
+
+
+Script started on 2023-09-04 11:16:57+05:30 [TERM="xterm-256color" TTY="/dev/pts/9" COLUMNS="133" LINES="35"]
+[K[K[K[K[K    [7m docker container ls -a[27mdocker container ls -a
+[?2004l
+CONTAINER ID   IMAGE         COMMAND    CREATED          STATUS                      PORTS     NAMES
+cb4186aa7f8e   hello-world   "/hello"   9 minutes ago    Exited (0) 9 minutes ago              awesome_mccarthy
+5ed19fb1d0e4   hello-world   "/hello"   16 minutes ago   Exited (0) 16 minutes ago             agitated_wozniak
+2c62e7ec53a2   ubuntu        "bash"     27 minutes ago   Exited (0) 24 minutes ago             frosty_allen
+472cd05b582a   ubuntu        "bash"     31 minutes ago   Exited (0) 2 minutes ago              heuristic_robinson
+041406a4972f   hello-world   "/hello"   42 minutes ago   Exited (0) 42 minutes ago             reverent_sanderson
+[?2004h]0;root@DESKTOP-AF62PIU: /home/charuka root@DESKTOP-AF62PIU:/home/charuka# [7m docker start -i[27mdocker start -i[7m heuristic_robinson[27mheuristic_robinson iheuristic_robinson[1Piheuristic_robinson[C heuristic_robinson
+[?2004l
+[?2004h]0;root@472cd05b582a: / root@472cd05b582a:/# [H[2J]0;root@472cd05b582a: / root@472cd05b582a:/# nano [7m/usr/src/app/index.js[27m/usr/src/app/index.js
+[?2004l
+[?2004h[?1049h[22;0;0t[1;35r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[33;60H(B[0;7m[ Reading... ](B[m[33;59H(B[0;7m[ Read 0 lines ](B[m[H(B[0;7m  GNU nano 6.2 [43b/usr/src/app/index.js [52b [1;132H(B[m
+[34d(B[0;7m^G(B[m Help[34;17H(B[0;7m^O(B[m Write Out    (B[0;7m^W(B[m Where Is     (B[0;7m^K(B[m Cut[34;65H(B[0;7m^T(B[m Execute[81G(B[0;7m^C(B[m Location     (B[0;7mM-U(B[m Undo[34;113H(B[0;7mM-A(B[m Set Mark
+[35d(B[0;7m^X(B[m Exit[35;17H(B[0;7m^R(B[m Read File    (B[0;7m^\(B[m Replace[49G(B[0;7m^U(B[m Paste[35;65H(B[0;7m^J(B[m Justify[81G(B[0;7m^/(B[m Go To Line   (B[0;7mM-E(B[m Redo[35;113H(B[0;7mM-6(B[m Copy
+[2d[?12l[?25h[?25l[33d[K[1;81H(B[0;7m*[132G(B[m
+[2dconsole.log((B[0;1m[35m'Hello World'[39m(B[m)[?12l[?25h[?25l
+[33d(B[0;7mSave modified buffer? [110b [34;1H Y(B[m Yes[K
+[35d(B[0;7m N(B[m No  [35;18H(B[0;7mC(B[m Cancel[K[33;23H[?12l[?25h[?25l
+[34d(B[0;7m^G(B[m Help[34;34H(B[0;7mM-D(B[m DOS Format[34;67H(B[0;7mM-A(B[m Append[34;100H(B[0;7mM-B(B[m Backup File
+[35d(B[0;7m^C(B[m Cancel[17G [8b[35;34H(B[0;7mM-M(B[m Mac Format[35;67H(B[0;7mM-P(B[m Prepend[35;100H(B[0;7m^T(B[m Browse
+[33d(B[0;7mFile Name to Write: /usr/src/app/index.js(B[m[?12l[?25h[?25l[33;59H[1K (B[0;7m[ Writing... ](B[m[K[1;81H(B[0;7m [132G(B[m[33;59H(B[0;7m[ Wrote 1 line ](B[m
+[J[35d[?12l[?25h[35;1H[?1049l[23;0;0t
+[?1l>[?2004l[?2004h]0;root@472cd05b582a: / root@472cd05b582a:/# [Kexit
+[?2004l
+exit
+[?2004h]0;root@DESKTOP-AF62PIU: /home/charuka root@DESKTOP-AF62PIU:/home/charuka# exit
+[?2004l
+exit
+
+Script done on 2023-09-04 11:19:38+05:30 [COMMAND_EXIT_CODE="0"]
