@@ -1,0 +1,55 @@
+Commands 
+
+    1.docker pull ubuntu
+    2.docker run -it ubuntu bash
+    3.echo hello-world
+    4.mkdir /usr/src/app
+    5.ls
+    6.touch index.js
+    7.ls
+    8.exit
+
+
+
+Script
+
+Script started on 2023-09-04 10:49:04+05:30 [TERM="xterm-256color" TTY="/dev/pts/9" COLUMNS="133" LINES="35"]
+
+        [?2004h]0;root@DESKTOP-AF62PIU: /home/charuka root@DESKTOP-AF62PIU:/home/charuka# 
+
+        [H[2J]0;root@DESKTOP-AF62PIU: /home/charuka root@DESKTOP-AF62PIU:/home/charuka# 
+            [7mdocker pull ubuntu[27mdocker pull ubuntu
+            [?2004l
+            Using default tag: latest
+            latest: Pulling from library/ubuntu
+            Digest: sha256:aabed3296a3d45cede1dc866a24476c4d7e093aa806263c27ddaadbdce3c1054
+            Status: Image is up to date for ubuntu:latest
+            docker.io/library/ubuntu:latest
+
+            [1mWhat's Next?
+            [0m  View summary of image vulnerabilities and recommendations → [36mdocker scout quickview ubuntu[0m
+        [?2004h]0;root@DESKTOP-AF62PIU: /home/charuka root@DESKTOP-AF62PIU:/home/charuka# [7mdocker run -it ubuntu bash[27mdocker run -it ubuntu bash
+            [?2004l
+        [?2004h]0;root@2c62e7ec53a2: / root@2c62e7ec53a2:/# echo [7mhello-world[27mhello-world
+            [?2004l
+            hello-world
+            [?2004h]0;root@2c62e7ec53a2: / root@2c62e7ec53a2:/# [7mmkdir /usr/src/app[27m mkdir /usr/src/app
+            [?2004l
+            [?2004h]0;root@2c62e7ec53a2: / root@2c62e7ec53a2:/# ls
+            [?2004l
+            [0m[01;36mbin[0m  [01;34mboot[0m  [01;34mdev[0m  [01;34metc[0m  [01;34mhome[0m  [01;36mlib[0m  [01;36mlib32[0m  [01;36mlib64[0m  [01;36mlibx32[0m  [01;34mmedia[0m  [01;34mmnt[0m  [01;34mopt[0m  [01;34mproc[0m  [01;34mroot[0m  [01;34mrun[0m  [01;36msbin[0m  [01;34msrv[0m  [01;34msys[0m  [30;42mtmp[0m  [01;34musr[0m  [01;34mvar[0m
+            [?2004h]0;root@2c62e7ec53a2: / root@2c62e7ec53a2:/# cd use  r/s c rc/app/
+            [?2004l
+            [?2004h]0;root@2c62e7ec53a2: /usr/src/app root@2c62e7ec53a2:/usr/src/app# touch [7mindex.js[27mindex.js
+            [?2004l
+            [?2004h]0;root@2c62e7ec53a2: /usr/src/app root@2c62e7ec53a2:/usr/src/app# ls
+            [?2004l
+            index.js
+            [?2004h]0;root@2c62e7ec53a2: /usr/src/app root@2c62e7ec53a2:/usr/src/app# exit
+            [?2004l
+            exit
+            [?2004h]0;root@DESKTOP-AF62PIU: /home/charuka root@DESKTOP-AF62PIU:/home/charuka# exit
+            [?2004l
+            exit
+
+            Script done on 2023-09-04 10:52:48+05:30 [COMMAND_EXIT_CODE="0"]
